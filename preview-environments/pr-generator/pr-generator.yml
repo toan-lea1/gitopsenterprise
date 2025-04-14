@@ -11,6 +11,9 @@ spec:
       github:
         owner: hoanglecao
         repo: gitopsenterprise
+       # Labels is used to filter the PRs that you want to target. (optional)
+        labels:
+        - preview-ready
       requeueAfterSeconds: 180
   template:
     metadata:
