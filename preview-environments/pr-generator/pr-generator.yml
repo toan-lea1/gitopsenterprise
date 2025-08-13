@@ -9,7 +9,7 @@ spec:
   generators:
   - pullRequest:
       github:
-        owner: hoanglecao
+        owner: toan-lea1
         repo: gitopsenterprise
        # Labels is used to filter the PRs that you want to target. (optional)
         labels:
@@ -20,7 +20,7 @@ spec:
       name: 'myapp-{{.branch}}'
     spec:
       source:
-        repoURL: 'https://github.com/hoanglecao/gitopsenterprise.git'
+        repoURL: 'https://github.com/toan-lea1/gitopsenterprise.git'
         targetRevision: HEAD
         path: preview-environments/kustomize-preview-app/ 
         kustomize:
